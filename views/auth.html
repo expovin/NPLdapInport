@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<!-- Website CSS style -->
+		<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="stylesheets/style.css">
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<title>LDAP User importer</title>
+	</head>
+	<body>
+		<div class="container">
+			
+				<div class="row">
+					<div class="row logo">
+						 <img src="http://itmil-ves:3000/images/qlik-logo.png" class="img-responsive" alt="Qlik Logo"> 
+					</div>
+
+					<div class="main-login main-center">
+					<h4>NPrinting LDAP Users importer DEMO</h4>
+					<h5>NPrinting Login</h5>
+						<form class="" method="post" action="getUsers/auth">
+
+							<div class="form-group">
+								<label for="username" class="cols-sm-2 control-label">NPrinting Server</label>
+								<div class="cols-sm-10">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" name="NPServer" id="NPServer"  placeholder="NPrinting Server name or IP"/>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="username" class="cols-sm-2 control-label">Username</label>
+								<div class="cols-sm-10">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="password" class="cols-sm-2 control-label">Password</label>
+								<div class="cols-sm-10">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+										<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="form-group">
+								<div class="btn-group">
+									<button type="submit" class="btn btn-warning">Login</button>
+								</button>
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+
+		</div>
+
+		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascripts/myScript.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    
+	</body>
+</html>
